@@ -3,6 +3,6 @@ module top_module(
     output cout, sum 
 );
 
-
+assign {cout, sum} = a + b;
 
 endmodule
